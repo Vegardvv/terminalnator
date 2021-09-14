@@ -7,6 +7,7 @@ Terminalnator is a series a script that create two versions of the same program,
 
 The program features file storage to save connections to devices for quick re-connection, ability to execute singular commands on the device and the main function which is take CSV spreadsheet with device interface attributes and create sets of commands and execute them all at once on the device.
 
+Tested on Cisco router and switch
 
 **Requirements**
 
@@ -15,6 +16,8 @@ The program requries python 3.0 or higher to run, tested on python 3.8.5.
 Netmiko https://github.com/ktbyers/netmiko
 
 Install with "pip install netmiko"
+
+Hardware with configured SSH connection
 
 
 **Usage**
