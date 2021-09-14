@@ -1,0 +1,7 @@
+Interface,Description,IP,Netmask,Vlan_id
+FastEthernet0/1,Default,192.168.0.1,255.255.255.0,None
+FastEthernet0/1.10,Admin,192.168.10.1,255.255.255.0,10
+FastEthernet0/1.20,Work,192.168.20.1,255.255.255.0,20
+FastEthernet0/1.30,Sales,192.168.30.1,255.255.255.0,30
+FastEthernet0/1.40,Server,192.168.40.1,255.255.255.0,40
+FastEthernet0/1.50,Extra,192.168.50.1,255.255.255.0,50

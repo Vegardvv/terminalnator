@@ -1,0 +1,12 @@
+Interface,Description,Vlan_id,Switchport_mode
+FastEthernet0/0,Sales,10,access
+FastEthernet0/1,Sales,10,access
+FastEthernet0/2,Sales,10,access
+FastEthernet0/3,Production,20,access
+FastEthernet0/4,Production,20,access
+FastEthernet0/5,Production,20,access
+FastEthernet0/6,Production,20,access
+FastEthernet0/7,Server,30,access
+FastEthernet0/8,Server,30,access
+FastEthernet0/9,Server,30,access
+GigabitEthernet0/1,Router,None,trunk
