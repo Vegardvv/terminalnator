@@ -30,3 +30,15 @@ Run script, select option with letter input. To connect to Cisco device, make su
 GUI
 
 Running script bring up root window. Add connections or delete them. Select connection to connect to. Also make sure device has SSH setup and is reachable. Use same CSV files to make device configurations. Always use disconnect button in connection window to safely close the connection.
+
+CSV
+
+The parameters that the program expects from a CSV file is hard coded, so the CSV file included serves both as a template and as examples of how the program queries the parameters into IOS commands. 
+
+**Improvements**
+
+Future improvements if I decide to make a 2.0 version would be:
+
+Ability to establish connection through a serial connection and access the console of the device.
+
+Have a more dynamic way to interpret CSV files to allow for more or fewer parameters in a configuration.
